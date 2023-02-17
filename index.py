@@ -1,8 +1,7 @@
 from mixpeek import Mixpeek
 import os
 
-mix = Mixpeek(
-    api_key="")
+mix = Mixpeek(api_key="API_KEY")
 
 
 def index_every_file(folder_path):
